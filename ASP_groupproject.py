@@ -22,5 +22,3 @@ class calSusbisusdi:
         country = []
         date = []
         avgvisitor = []
-
-

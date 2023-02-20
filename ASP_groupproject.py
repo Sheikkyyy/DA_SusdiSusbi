@@ -21,4 +21,3 @@ class calSusbisusdi:
         date = []
         avgvisitor = []
 
-

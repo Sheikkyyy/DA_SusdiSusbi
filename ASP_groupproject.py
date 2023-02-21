@@ -8,17 +8,4 @@ print(dataset)
 #renaming the first column to date
 dataset_1 = dataset.rename(columns={'   ': 'Date'})
 print(dataset_1)
-class calSusbisusdi:
-    def __init__(self):
-        self.country = []
-        self.date = []
-        self.avgvisitor = []
-        self.totalcountry = 0
-        self.totalavgvisitor = 0
 
-    #function
-
-    def calamtofppl(self):
-        country = []
-        date = []
-        avgvisitor = []

@@ -17,7 +17,7 @@ print(dataset_2)
 dataset_3 = dataset_2.dropna()
 
 #checking the dimension
-dataset_3
+dataset_3.shape
 
 #creating region
 region_asia = dataset_3[['date','Brunei Darussalam','Indonesia','Malaysia',
@@ -25,3 +25,4 @@ region_asia = dataset_3[['date','Brunei Darussalam','Indonesia','Malaysia',
                     'Japan','Hong Kong','China','Taiwan',
                     'Korea, Republic Of','India'
                     ]]
+

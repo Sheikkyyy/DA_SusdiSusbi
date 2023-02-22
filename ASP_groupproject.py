@@ -33,4 +33,3 @@ years_dataset = region_asia[360:480]
 print(years_dataset)
 
 #plotting of graph
-graph_plotting =

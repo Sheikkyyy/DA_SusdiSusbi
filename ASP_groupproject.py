@@ -1,3 +1,5 @@
+#QF2204A
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -49,7 +51,12 @@ print(years_dataset.dtypes)
 
 
 #groupby
+
+
 #sum
 
 #plot
+plt.plot(years_dataset)
+
+plt.show()
 #top 3

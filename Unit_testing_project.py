@@ -1,10 +1,10 @@
 import unittest
+import PROJECTCLASS as proj
 
+class testtop3(unittest.TestCase):
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
-
-
-if __name__ == '__main__':
+    def testdataprocessing(self):
+        result = proj(self.top3)
+        self.assertEqual(result, ' Indonesia ', ' China ', ' Malaysia ')
+if _name_ == '_main_':
     unittest.main()

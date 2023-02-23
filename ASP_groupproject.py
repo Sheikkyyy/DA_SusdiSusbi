@@ -67,6 +67,5 @@ plt.ylabel("total sum")
 plt.xticks(index, ps.index, fontsize=10, rotation=90)
 plt.title("sum of visitor by country")
 plt.bar(ps.index, ps.values)
+plt.ticklabel_format(useOffset=False, style='plain', axis='y')
 plt.show()
-
-#top 3

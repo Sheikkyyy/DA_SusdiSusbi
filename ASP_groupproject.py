@@ -50,13 +50,23 @@ years_dataset = years_dataset.astype('int')
 print(years_dataset.dtypes)
 
 
-#groupby
-
-
 #sum
+total_sum_df = years_dataset.sum()
 
+print(total_sum_df)
+
+#remove year column
+total_sum_df = total_sum_df.drop('year', axis = 0)
+
+print(total_sum_df)
 #plot
-plt.plot(years_dataset)
-
+ps = total_sum_df[:].sort_values()
+index = np.arange(len(ps.index))
+plt.xlabel("Country")
+plt.ylabel("total sum")
+plt.xticks(index, ps.index, fontsize=10, rotation=90)
+plt.title("sum of visitor by country")
+plt.bar(ps.index, ps.values)
 plt.show()
+
 #top 3

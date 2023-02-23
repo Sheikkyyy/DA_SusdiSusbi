@@ -1,5 +1,5 @@
 import unittest
-import PROJECTCLASS as proj
+import ASP_groupproject as proj
 
 class testtop3(unittest.TestCase):
 

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #class
 class data_analyse:
-    def _init_(self):
+    def __init__(self):
         self.dataset = pd.read_excel(r"./Project_File.xlsx")
         self.top3 = []
 

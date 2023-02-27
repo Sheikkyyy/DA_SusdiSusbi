@@ -1,10 +1,10 @@
 import unittest
-import ASP_groupproject as proj
+import PROJECTCLASS as proj
 
-class testtop3(unittest.TestCase):
 
-    def testdataprocessing(self):
-        result = proj(self.top3)
-        self.assertEqual(result , ' Indonesia ', ' China ', ' Malaysia ')
+class testproj(unittest.TestCase):
+    def test_dataprocessing(self):
+        result = proj(process_data.top3)
+        self.assertEqual(result, ' Indonesia ', ' China ', ' Malaysia ')
 if _name_ == '_main_':
     unittest.main()

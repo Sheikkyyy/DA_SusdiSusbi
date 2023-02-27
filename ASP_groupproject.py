@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #class
 class data_analyse:
-    def __init__(self):
+    def _init_(self):
         self.dataset = pd.read_excel(r"./Project_File.xlsx")
         self.top3 = []
 
@@ -25,8 +25,6 @@ class data_analyse:
         print(years_dataset)
 
         total_sum_df = years_dataset
-
-        #total_sum_df = years_dataset.drop('year', axis=1)
 
         total_sum_df = total_sum_df.sum()
         total_sum_df = total_sum_df.sort_values(ascending=False)
